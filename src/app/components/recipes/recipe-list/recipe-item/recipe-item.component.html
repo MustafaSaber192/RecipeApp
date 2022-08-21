@@ -1,0 +1,17 @@
+<a class="list-group-item clear-fix">
+  <div class="d-flex w-100 justify-content-">
+    <span class="mb-3">
+      <h5 class="mb-1">{{ recipe.name }}</h5>
+      <p class="mb-1 ml-3">
+        {{ recipe.description }}
+      </p>
+    </span>
+    <span class="pull-right test">
+      <img
+        [src]="recipe.imagePath"
+        class="rounded float-start"
+        alt="recipe.name"
+      />
+    </span>
+  </div>
+</a>
